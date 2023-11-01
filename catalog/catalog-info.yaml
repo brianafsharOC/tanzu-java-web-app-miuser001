@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: customer-profile
+  name: tanzu-java-web-app-miuser001
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile"
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=tanzu-java-web-app-miuser001"
 spec:
   type: service
   lifecycle: experimental
